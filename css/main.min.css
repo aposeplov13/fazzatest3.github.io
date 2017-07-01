@@ -1035,9 +1035,19 @@
        -moz-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    overflow: hidden; }
+    overflow: hidden;
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+       -moz-box-flex: 0;
+        -ms-flex: none;
+            flex: none; }
     @media only screen and (max-width: 767px) {
       .howwework .howwework_item {
+        -webkit-box-flex: 0;
+        -webkit-flex: none;
+           -moz-box-flex: 0;
+            -ms-flex: none;
+                flex: none;
         height: 318px; } }
     .howwework .howwework_item .howwework_icon {
       display: -webkit-box;
