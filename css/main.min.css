@@ -1050,7 +1050,7 @@
          -moz-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      padding-bottom: 2rem; }
+      padding-bottom: 3.2rem; }
       @media only screen and (max-width: 767px) {
         .howwework .howwework_item .howwework_icon {
           padding-top: 2rem;
@@ -1111,18 +1111,20 @@
       font-weight: 400;
       margin: 0 auto;
       width: 90%; }
-  .howwework .howwework_item-last .howwework_icon {
-    padding-top: 2rem;
-    padding-bottom: 1.4rem; }
-    @media only screen and (max-width: 767px) {
-      .howwework .howwework_item-last .howwework_icon {
-        padding-bottom: 2.6rem; } }
-  @media only screen and (max-width: 767px) {
+  .howwework .howwework_item:nth-of-type(4n) {
+    padding-top: 1.4rem; }
     .howwework .howwework_item:nth-of-type(4n) .howwework_icon {
-      padding-bottom: 2.6rem; } }
-  @media only screen and (max-width: 767px) {
+      padding-bottom: 2.4rem; }
+      @media only screen and (max-width: 767px) {
+        .howwework .howwework_item:nth-of-type(4n) .howwework_icon {
+          padding-bottom: 1.2rem; } }
+  .howwework .howwework_item:nth-of-type(5n) {
+    padding-top: 1.4rem; }
     .howwework .howwework_item:nth-of-type(5n) .howwework_icon {
-      padding-bottom: 3.6rem; } }
+      padding-bottom: 2.4rem; }
+      @media only screen and (max-width: 767px) {
+        .howwework .howwework_item:nth-of-type(5n) .howwework_icon {
+          padding-bottom: 2.2rem; } }
 
 .defects {
   background: url("../img/background/price-bg-1920-full.png");
